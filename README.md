@@ -1,6 +1,6 @@
-AQI Monitoring System – Project Documentation
+# __AQI Monitoring System – Project Documentation__
 
-1. Real World Problem - Rising AQI and Air Pollution :-
+### 1. Real World Problem - Rising AQI and Air Pollution :- ###
 
 Air pollution is one of the most critical environmental issues globally. Millions of people live in
 areas where Air Quality Index (AQI) levels frequently exceed safe limits, causing respiratory
@@ -9,9 +9,9 @@ unaware of daily AQI variations and how they impact health. There is a need for 
 user-friendly tool that allows individuals to monitor air quality, understand patterns, and
 identify unsafe days quickly.
 
-2. Objectives and Expected Outcomes :-
+### 2. Objectives and Expected Outcomes :- ###
 
-Objectives :
+#### Objectives : ####
 
 ● To design a Python-based system that collects and analyzes daily AQI data.
 
@@ -23,13 +23,13 @@ Objectives :
 
 ● To help users understand pollution trends and take preventive actions.
 
-Expected Outcomes :
+#### Expected Outcomes : ####
 
 ● A working Python program that: Accepts AQI values as input, Uses lists and loops for data processing, Computes average AQI, Displays weekly/daily AQI summary, Detects the most polluted day, Finds days exceeding a pollution threshold
 
 ● Users gain insights into pollution exposure and potential health risks.
 
-3. Applied Concepts Learned in the Class to Design the Solution :-
+### 3. Applied Concepts Learned in the Class to Design the Solution :- ###
 
 ● Lists used to store AQI values
 
@@ -43,7 +43,7 @@ Expected Outcomes :
 
 ● Problem-solving and structured programming techniques
 
-4. Usage of Appropriate Tools and Programming Techniques :-
+### 4. Usage of Appropriate Tools and Programming Techniques :- ###
 
 The project uses only the Python Standard Library. Key techniques include:
 
@@ -57,15 +57,15 @@ The project uses only the Python Standard Library. Key techniques include:
 
 ● Console-based user interaction.
 
-5. Follow a Structured Development Process :-
+### 5. Follow a Structured Development Process :- ###
 
-A. Problem Definition :
+#### A. Problem Definition : ####
 
 Air pollution levels vary significantly from day to day. Without a monitoring tool, individuals
 cannot easily track AQI fluctuations. A simple system is needed to input AQI values, analyze
 trends, and determine how safe the air is over a given period.
 
-B. Requirement Analysis :
+#### B. Requirement Analysis : 
 
 ● The system must accept AQI inputs for n days.
 
@@ -83,9 +83,9 @@ B. Requirement Analysis :
 
 ● Code must be readable, modular, and maintainable.
 
-C. Top-Down Design and Modularization :
+#### C. Top-Down Design and Modularization :
 
-Main Modules -
+##### Main Modules -
 
 1. Input Module = Collects AQI values from the user using loops.
 
@@ -94,7 +94,7 @@ highest AQI detection.Threshold-based filtering.
 
 3. Output Module = Displays summary, Shows AQI category, Lists polluted days
 
-Top-Down Approach -
+##### Top-Down Approach -
 
 ● Begin with the main problem: "Monitor and analyze AQI"
 
@@ -103,9 +103,9 @@ Top-Down Approach -
 
 ● Implement each component step-by-step.
 
-D. Algorithm Development :
+#### D. Algorithm Development :
 
-Algorithm: AQI Monitoring System -
+##### Algorithm: AQI Monitoring System -
 
 1. Start
 2. Ask user for number of days
@@ -120,7 +120,7 @@ Algorithm: AQI Monitoring System -
 11. Display all results
 12. End
 
-Algorithm: calculate_average() Function -
+##### Algorithm: calculate_average() Function -
 
 1. Accept list as parameter
 2. Initialize total = 0
@@ -129,23 +129,26 @@ Algorithm: calculate_average() Function -
 5. Divide total by number of elements
 6. Return result
 
-E. Implementation :
+#### E. Implementation :
 
 ● Uses lists for data storage
+
 ● Uses loops for input and analysis
+
 ● Uses a function for average calculation
+
 ● Uses conditional statements for AQI classification
 
-F. Testing and Refinement :
+#### F. Testing and Refinement :
 
-Test Cases -
+##### Test Cases -
 
 1) Input :- AQI: 50, 60, 40 | Output :- Average = 50; Category = Good/Satisfactory
 2) Input :- AQI: 120, 150, 200 | Output :- Average = Moderate/Poor
 3) Input :- Threshold = 100 | Output :- Days above threshold identified
 4) Input :- Highest AQI = 280 | Output :- Displays correct worst day
 
-Refinement Activities -
+##### Refinement Activities -
 
 ● Improved category descriptions
 

@@ -9,10 +9,15 @@ user-friendly tool that allows individuals to monitor air quality, understand pa
 identify unsafe days quickly.
 2. Objectives and Expected Outcomes :-
 Objectives :
+
 ● To design a Python-based system that collects and analyzes daily AQI data.
+
 ● To calculate the average AQI.
+
 ● To classify air quality into standard AQI categories.
+
 ● To identify days with unsafe pollution levels.
+
 ● To help users understand pollution trends and take preventive actions.
 Expected Outcomes :
 ● A working Python program that:
